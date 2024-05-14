@@ -56,7 +56,7 @@ async function GetUserByScreenName(username){
     return "报错了:"+error
   }
 }
-
+//git clone https://github.com/x0tools/Twitter.git twitter
 app.get('/UserByScreenName', async function  (req, res) {
 
 	if(req.query != null)
